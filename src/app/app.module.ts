@@ -1,16 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FoldableModule } from 'ngx-foldable';
 
 import { AppComponent } from './app.component';
+import { RacketComponent } from './racket.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RacketComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FoldableModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
